@@ -1,0 +1,121 @@
+{
+	"ID": "3675e4f9466d3604e869b2821a5bd7fa",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6705,
+	"Data": [
+		{
+			"ID": "3675e4f9466d3604e869b2821a5bd7fa",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "aa0dd82b4bf53175588dc3b0ac765582",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "3675e4f9466d3604e869b2821a5bd7fa",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 160.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.3826834559440613,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.9238795042037964
+				}
+			}
+		},
+		{
+			"ID": "250391b94010b6e48c3adabcc298514b",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "3675e4f9466d3604e869b2821a5bd7fa",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"Sun": "aa0dd82b4bf53175588dc3b0ac765582"
+		},
+		{
+			"ID": "9fd5deae4a2a73838421db9234f710bb",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "3675e4f9466d3604e869b2821a5bd7fa",
+			"Name": "SkyLight",
+			"Brightness": 2.5,
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"ID": "34662e87416246ce356a278b7b588c8d",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "3675e4f9466d3604e869b2821a5bd7fa",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 150.0,
+					"Z": -1600.0
+				}
+			}
+		},
+		{
+			"ID": "d36fb430430bcf795bcd28a4a7d854ef",
+			"TypeName": "FlaxEngine.AudioListener",
+			"ParentID": "34662e87416246ce356a278b7b588c8d",
+			"Name": "Audio Listener"
+		},
+		{
+			"ID": "ccba6ee249ff57ec16450fb621f2091f",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "3675e4f9466d3604e869b2821a5bd7fa",
+			"Name": "EmptyActor",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			}
+		},
+		{
+			"ID": "a649487342621603841c8f8ee138fc0e",
+			"TypeName": "Game.TransformationGrid",
+			"ParentID": "ccba6ee249ff57ec16450fb621f2091f",
+			"Prefab": "ec736e454261311d240657a78edf1fed"
+		},
+		{
+			"ID": "cb3624dd43a407ec95fa9a9194d96fad",
+			"TypeName": "Game.ScaleTransformation",
+			"ParentID": "ccba6ee249ff57ec16450fb621f2091f"
+		},
+		{
+			"ID": "c4652b3b4dd8c2e3917262894559a67d",
+			"TypeName": "Game.RotationTransformation",
+			"ParentID": "ccba6ee249ff57ec16450fb621f2091f"
+		},
+		{
+			"ID": "4dde60f74d56e7a4bfafdaa89f6b7bde",
+			"TypeName": "Game.PositionTransformation",
+			"ParentID": "ccba6ee249ff57ec16450fb621f2091f"
+		},
+		{
+			"ID": "fb0f3a36477ace57a449469d3dba1480",
+			"TypeName": "Game.CameraTransformation",
+			"ParentID": "ccba6ee249ff57ec16450fb621f2091f",
+			"Enabled": false
+		}
+	]
+}
