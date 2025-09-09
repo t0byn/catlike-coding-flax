@@ -1,0 +1,77 @@
+{
+	"ID": "ebfc734649afe0d4335ef980adfb279e",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6705,
+	"Data": [
+		{
+			"ID": "ebfc734649afe0d4335ef980adfb279e",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "fdb38e554d67f2a07efe2a843daf3b6c",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "ebfc734649afe0d4335ef980adfb279e",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			}
+		},
+		{
+			"ID": "d11bdef6477e53e685f4c081ce03244b",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "ebfc734649afe0d4335ef980adfb279e",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 150.0,
+					"Z": -150.0
+				}
+			},
+			"Near": 30.0,
+			"Far": 100000.0,
+			"RenderMode": 1
+		},
+		{
+			"ID": "4f8cb12248a4c17efb3f148d94a99ebb",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "ebfc734649afe0d4335ef980adfb279e",
+			"Name": "MyFirstShader",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": -0.7071068286895752,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "091cfde34855b7e96150b0bd42241270",
+			"TypeName": "Game.MyFirstShader",
+			"ParentID": "4f8cb12248a4c17efb3f148d94a99ebb",
+			"MyModel": "54a1ff4a42af9f018234f7b39b1366b3",
+			"MyShader": "000005143ad4ed4a0000004d00000072",
+			"MyTexture": "d20174a04c40bd1fe6977fa138241eb6"
+		}
+	]
+}
