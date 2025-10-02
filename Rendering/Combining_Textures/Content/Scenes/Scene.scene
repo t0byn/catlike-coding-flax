@@ -1,0 +1,141 @@
+{
+	"ID": "b1762cea4876f43a62621995c6f820b6",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6705,
+	"Data": [
+		{
+			"ID": "b1762cea4876f43a62621995c6f820b6",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "3d410ece409545771108e883a0195c4e",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "b1762cea4876f43a62621995c6f820b6",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 160.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.3826834559440613,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.9238795042037964
+				}
+			}
+		},
+		{
+			"ID": "9703837c43f1e8c44d550ba912c746e7",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "b1762cea4876f43a62621995c6f820b6",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"Sun": "3d410ece409545771108e883a0195c4e"
+		},
+		{
+			"ID": "a7111a88403fc80fb8a897b5c621834b",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "b1762cea4876f43a62621995c6f820b6",
+			"Name": "SkyLight",
+			"Brightness": 2.5,
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"ID": "fe90932b46dae576ec25979d7d304859",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "b1762cea4876f43a62621995c6f820b6",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 160.0,
+					"Z": -80.0
+				},
+				"Orientation": {
+					"X": 0.3826834559440613,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.9238795042037964
+				}
+			},
+			"RenderMode": 1
+		},
+		{
+			"ID": "7a27f1ef48fe48725e357494e33cf6d2",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "b1762cea4876f43a62621995c6f820b6",
+			"Name": "EmptyActor",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 110.0
+				},
+				"Orientation": {
+					"X": 3.090862321641907e-8,
+					"Y": 0.7071068286895752,
+					"Z": 0.7071068286895752,
+					"W": -3.090862321641907e-8
+				}
+			}
+		},
+		{
+			"ID": "e53c8eae4541e5ef49d093897d007c98",
+			"TypeName": "Game.MyFirstDrawing",
+			"ParentID": "7a27f1ef48fe48725e357494e33cf6d2",
+			"MyModel": "54a1ff4a42af9f018234f7b39b1366b3",
+			"MyShader": "000005143ad4ed4a0000004d00000072",
+			"MainTexture": "de51603b4608135bf242959fe471ef1b",
+			"DetailTexture": "dda0cfac42349450235ef0bd149d28e6",
+			"DetailTextureTiling": {
+				"X": 10.0,
+				"Y": 10.0
+			}
+		},
+		{
+			"ID": "513f5cde478fd4ab725900aca6d6ba6a",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "b1762cea4876f43a62621995c6f820b6",
+			"Name": "EmptyActor 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 100.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 3.090862321641907e-8,
+					"Y": 0.7071068286895752,
+					"Z": 0.7071068286895752,
+					"W": -3.090862321641907e-8
+				}
+			}
+		},
+		{
+			"ID": "d05b37ef4d2779f84b3d779cb6899049",
+			"TypeName": "Game.MySplatMapDrawing",
+			"ParentID": "513f5cde478fd4ab725900aca6d6ba6a",
+			"MyModel": "54a1ff4a42af9f018234f7b39b1366b3",
+			"MyShader": "00000640c7b3820c0000005400000067",
+			"SplatMap": "41242f8d4040879e77c46ba69e8cd225"
+		}
+	]
+}
